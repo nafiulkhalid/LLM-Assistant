@@ -14,7 +14,7 @@ import seaborn as sns
 import re
 
 # Configure Gemini API
-GENAI_API_KEY = "AIzaSyA9B7lMSkCdMt3Fk78M8DmUtkjFkqaa1-I"  # Replace with your actual API key
+GENAI_API_KEY = "SK0000000000"  # Replace with your actual API key
 genai.configure(api_key=GENAI_API_KEY)
 
 def capture_active_window():
