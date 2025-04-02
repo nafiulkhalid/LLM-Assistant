@@ -10,7 +10,7 @@ import pyttsx3
 from google.api_core.exceptions import ResourceExhausted
 
 # ---------------- Gemini Setup ----------------
-GENAI_API_KEY = "SK0000000000"  # Replace with your actual API key
+GENAI_API_KEY = "abc"  # Replace with your actual API key
 genai.configure(api_key=GENAI_API_KEY)
 
 # ---------------- Text-to-Speech Setup ----------------
