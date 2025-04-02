@@ -1,17 +1,3 @@
-<h4 align="center">TreeHacks-2025</h4>
-<h4 align="center">Project: AERO -- Hands free Virtual Assistant</h4>
-
- 📌 Devpost Link : https://devpost.com/software/aero-yu405v
-
- 📌 Website Link : https://aero-bho2-czoca7x4d-nafiulkhalids-projects.vercel.app
- 
- 📌 Model Demo Link : https://www.linkedin.com/feed/update/urn:li:activity:7297918566106890241/
->[!NOTE]
-> Below is the website demo. For model demo, check the link above!
-
-
-https://github.com/user-attachments/assets/c78b30b3-e6f4-4c04-b6cb-e59f8f983aac
-
 # AERO
 ## Automated Execution and Response Orchestrator
 ### Efficiency at your command. Intelligence at your fingertips. This is AERO.
@@ -19,6 +5,17 @@ https://github.com/user-attachments/assets/c78b30b3-e6f4-4c04-b6cb-e59f8f983aac
 >[!NOTE]
 > Imagine having an assistant that doesn’t just answer questions but actually takes action—instantly. AERO is a smart, intuitive, and fully interactive AI assistant designed to simplify your digital life like never before. Once installed and set to run in the background, AERO springs to life the moment you say, “Hey AERO.”
 ---
+
+<img width="1470" alt="banner" src="https://github.com/user-attachments/assets/34a46616-3bd9-43d3-b4df-4ea279ed00a7" />
+
+https://github.com/user-attachments/assets/b2270e24-96f5-41b7-a4c9-5cd73373871b
+ 
+📌 Model Demo Link : https://www.linkedin.com/feed/update/urn:li:activity:7297918566106890241/
+
+📌 Devpost Link : https://devpost.com/software/aero-yu405v
+
+📌 Website Link : https://aero-bho2-czoca7x4d-nafiulkhalids-projects.vercel.app
+ 
 
 # Design Document:   
 
@@ -73,9 +70,14 @@ https://github.com/user-attachments/assets/c78b30b3-e6f4-4c04-b6cb-e59f8f983aac
 - **Website**  
   - Built with **JavaScript** (CSS + Bootstrap) and **HTML**  
 
+--
+### **Brief:**
+<img width="673" alt="AERObrief" src="https://github.com/user-attachments/assets/a320c15f-26bc-4ef4-b6ed-f7c9880a5ff5" />
+
 ---
 
 A TreeHacks2025 Project
 
 ---
 * TreeHacks is the annual hackathon of Stanford University
+
