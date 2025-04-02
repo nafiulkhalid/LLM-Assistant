@@ -1,0 +1,624 @@
+
+/* ========== General ========== */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding-top: 56px;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+a {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+a:hover {
+    text-decoration: underline;
+    color: #007aff !important;
+}
+section {
+    padding: 30vh 0;
+    background-color: white;
+}
+section h2 {
+    margin-bottom: 40px;
+}
+
+/* ========== Hero ========== */
+
+#hero {
+    background-color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.aero-text {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 12rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.letter {
+    transition: transform 1s ease-out;
+    display: inline-block;
+}
+
+
+/* Gradient Tagline */
+.tagline {
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, #ff007a, #007aff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    transition: opacity 0.8s ease-out;
+}
+
+/* Overview Section */
+#overview {
+    position: relative;
+    padding: 100px 0;
+}
+
+.overview-heading {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #ff007a, #007aff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+
+/* Subheading Gradient */
+.overview-subheading {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #101010, #11d314);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#overview .lead {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #222;
+}
+/* Overview List Styling */
+.overview-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.overview-list li {
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.overview-list i {
+    font-size: 1.5rem;
+    color: #007aff;
+    margin-right: 10px;
+}
+.overview-list, .lead {
+    margin-bottom: 20px;
+}
+
+/* Image Styling */
+#overview-image {
+    width: 900px;
+    max-width: 120%;
+    display: block;
+    margin: 0 auto;
+}
+
+#overview .row {
+    margin-bottom: 20px;
+}
+
+/* Navbar */
+.navbar {
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+/* Transparent Navbar */
+.navbar-transparent {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+}
+
+/* Dark Background on Scroll */
+.navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+.navbar-scrolled .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Navbar Link Hover */
+.navbar-nav .nav-link:hover {
+    color: #007aff !important;
+    transform: scale(1.1);
+}
+
+/* Navbar Toggler */
+.navbar-toggler {
+    margin-left: auto;
+}
+
+/* Footer */
+.footer-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+}
+
+/* Gradient Footer Subheading */
+.footer-subheading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 20px;
+    background: linear-gradient(170deg, #dd1313, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Responsive Footer Adjustments */
+@media (max-width: 768px) {
+    .footer-brand {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .text-start, .text-end {
+        text-align: center !important;
+    }
+}
+
+/* Social Media Icons */
+.social-icons a {
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #007aff;
+}
+
+
+/* Features Section */
+.many-more {
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+#features {
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Feature Cards */
+.feature-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Feature Icon */
+.feature-icon {
+    font-size: 2.5rem;
+    color: #007aff;
+    margin-bottom: 15px;
+}
+
+/* How It Works Section */
+#how-it-works {
+    padding: 100px 0;
+    background-color: white;
+    margin-bottom: 80px;
+}
+
+/* How Cards */
+.how-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* How Icons */
+.how-icon {
+    font-size: 3rem;
+    color: #007aff;
+    margin-bottom: 15px;
+}
+
+/* Why Choose AERO Section */
+#why-choose-aero {
+    padding: 100px 0;
+    background-color: white;
+}
+
+/* Benefits List */
+.aero-benefits-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.aero-benefits-list li {
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    color: black;
+}
+
+/* Icons */
+.aero-benefits-list i {
+    font-size: 1.5rem;
+    color: #007aff;
+    margin-right: 10px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 20vh 0;
+    margin-bottom: 0;
+    background-color: white;
+}
+
+#contact .beta-form {
+    width: 100%;
+    max-width: 600px; 
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#contact .beta-input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#contact .beta-input:focus {
+    border-color: #007aff;
+    outline: none;
+}
+
+#contact .beta-button {
+    width: 100%;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#contact .beta-button:hover {
+    background: black;
+    color: #007aff;
+    box-shadow: 0 0 15px rgba(0, 122, 255, 0.8);
+}
+
+#contact .beta-button:active {
+    background: black;
+    color: #007aff;
+    box-shadow: 0 0 25px rgba(0, 122, 255, 1);
+    transform: scale(0.98);
+}
+
+#contact .error-message {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* AERO Beta Section */
+.beta-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: justify;
+    color: black;
+}
+
+.beta-overlay {
+    background: rgba(255, 255, 255, 0.7); /* Light overlay for readability */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.beta-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.beta-subtext {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(90deg, #0e20de, #bc11cf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .beta-section {
+        padding-top: 10rem;
+        margin-top: 80px;
+    }
+
+    .beta-title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .beta-section .container {
+        padding: 3rem 1rem;
+    }
+}
+
+
+/* Form Styling */
+.beta-form {
+    width: 100%;
+    max-width: 600px; 
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.beta-input {
+    width: 100%; /* Makes input fields full-width */
+    height: 50px; /* Increased height */
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.beta-button {
+    width: 100%; /* Full width button */
+    height: 50px; /* Adjust height */
+    background: black;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.beta-button:hover {
+    background: #444;
+}
+
+
+.error-message {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+/* Button Enhancements */
+.btn-primary {
+    background: #007aff;
+    border: none;
+    font-weight: 600;
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+    background: #ff007a;
+    transform: scale(1.05);
+}
+
+/* Hover Animations */
+.animated-hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.animated-hover:hover {
+    transform: translateY(-5px);
+}
+
+#overview, #aero-beta, #features, #how-it-works, #why-choose-aero, #contact {
+    padding: 20vh 0;
+    margin-bottom: 0;
+    background-color: white;
+}
+
+#beta-video {
+    max-width: 560px;
+    width: 100%;
+    height: 315px;
+    border-radius: 10px;
+}
+
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.feature-box {
+    background: linear-gradient(135deg, #EEF2FF, #DCE1FF);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box:hover {
+    background: linear-gradient(135deg, #DCE1FF, #B3B8FF);
+    transform: scale(1.05);
+}
+
+.feature-box i {
+    font-size: 2rem;
+    color: #007aff;
+    margin-bottom: 10px;
+}
+
+.feature-box h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.feature-box p {
+    font-size: 1rem;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .feature-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Instant Productivity Section */
+#how-it-works {
+    padding: 12vh 0;
+    background: #f9f9f9; /* Soft single-tone background */
+}
+
+.productivity-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.productivity-item {
+    background: linear-gradient(135deg, #EEF2FF, #DCE1FF); /* Soft gradient */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+}
+
+.productivity-item:hover {
+    background: linear-gradient(135deg, #DCE1FF, #B3B8FF);
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.productivity-icon {
+    font-size: 3rem;
+    color: #007aff;
+    margin-bottom: 15px;
+}
+
+.productivity-item h4 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.productivity-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Responsive Grid */
+@media (max-width: 768px) {
+    .productivity-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .productivity-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

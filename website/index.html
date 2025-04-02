@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>AERO</title>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar navbar-expand-lg fixed-top navbar-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="#">AERO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#aero-beta">Beta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#why-choose-aero">Why AERO?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="hero" class="text-center d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h1 class="display-1 fw-bold aero-text">
+                <span class="letter letter-a">A</span>
+                <span class="letter letter-e">E</span>
+                <span class="letter letter-r">R</span>
+                <span class="letter letter-o">O</span>
+            </h1>
+            <p class="lead tagline">Automated Execution & Response Orchestrator</p>
+       </div>
+   </section>
+
+
+    <!-- Overview Section -->
+    <section id="overview">
+        <div class="container">
+            <!-- Centered Heading -->
+            <div class="text-center mb-4">
+                <h2 class="overview-heading gradient-text">Automated Execution & Response Orchestrator (AERO)</h2>
+            </div>
+
+        <!-- Block 1: Image on Left, Subheading & First Line on Right -->
+        <div class="row align-items-center mb-4">
+            
+            <!-- Left: Image -->
+            <div class="col-md-6 text-center">
+                <img src="windows.png" id="overview-image" alt="AERO Device">
+            </div>
+
+            <!-- Right: Subheading & First Line -->
+            <div class="col-md-6">
+                <h3 class="overview-subheading">Let’s Make Your Devices Alive!</h3>
+                <p class="lead">
+                    AERO is more than just an AI assistant—it’s your personal command center.
+                </p>
+            </div>
+
+            <!-- Block 2: Two Columns -->
+            <div class="row">
+                <!-- Left: Last Two Paragraphs -->
+                <div class="col-md-6">
+                    <p class="lead">
+                        With hands-free activation, advanced natural language understanding, and seamless integration into your workflow,
+                        AERO transforms the way you interact with your devices.
+                    </p>
+                </div>
+                <!-- Right: Features List -->
+                <div class="col-md-6">
+                    <p class="lead">
+                        Designed to streamline your digital workflow, AERO responds instantly to:
+                    </p>
+                    <ul class="overview-list">
+                        <li><i class="bi bi-mic-fill text-primary"></i> <strong>Voice Commands</strong></li>
+                        <li><i class="bi bi-gear-fill text-primary"></i> <strong>Automating Tasks</strong></li>
+                        <li><i class="bi bi-window text-primary"></i> <strong>Managing Applications</strong></li>
+                        <li><i class="bi bi-lightbulb-fill text-primary"></i> <strong>Optimizing Productivity</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- AERO Beta Section -->
+    <section id="aero-beta" class="beta-section">
+        <div class="beta-overlay">
+            <div class="container">
+                
+                <!-- Centered Heading -->
+                <div class="text-center">
+                    <h1 class="beta-title">This Summer: AERO Beta</h1>
+                </div>
+                <div class="row justify-content-center align-items-center mt-4">
+                    
+                    <!-- Left: Text Content, Bullet Points & Video -->
+                    <div class="col-md-6 d-flex flex-column justify-content-start">
+                        
+                        <!-- Subtext -->
+                        <p class="beta-subtext">Be the first to experience the next generation of AI automation.</p>
+
+                        <!-- Bullet Points -->
+                        <ul class="aero-beta-list">
+                            <li><i class="bi bi-lightning-fill"></i> <strong>Early Access</strong> – Get hands-on experience with AERO’s newest innovations.</li>
+                            <li><i class="bi bi-chat-dots-fill"></i> <strong>Shaping the Future</strong> – Provide feedback and help refine AERO.</li>
+                            <li><i class="bi bi-people-fill"></i> <strong>Exclusive Community</strong> – Connect with beta users and our development team.</li>
+                            <li><i class="bi bi-headset"></i> <strong>Priority Support</strong> – Enjoy dedicated assistance throughout the beta phase.</li>
+                        </ul>
+
+                        <!-- Beta Video -->
+                        <div class="text-center mt-4">
+                            <iframe id="beta-video" width="100%" height="315"
+                                src="https://youtu.be/eDCvezqUcNQ?si=zDHi1qsL91kDYtad"
+                                title="ProductDemo" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <!-- Right: Signup Form (Centered in Middle) -->
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <div class="beta-form text-center">
+                            <input type="text" placeholder="First name" class="beta-input">
+                            <input type="text" placeholder="Last name" class="beta-input">
+                            <input type="email" id="beta-email" placeholder="Email" class="beta-input">
+                            <button class="beta-button" onclick="validateEmail()">Join Beta Waitlist</button>
+                            <p id="beta-message" class="error-message"></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container text-center">
+            <h2 class="gradient-text">AERO Offers</h2>
+            <div class="row justify-content-center">
+                
+                <!-- Feature 1: Voice-Activated Control -->
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="bi bi-mic-fill feature-icon"></i>
+                        <h4>Voice-Activated Control</h4>
+                        <p>Say “Hey AERO” to instantly launch apps, switch tasks, or control system settings without touching your keyboard.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 2: Natural Language Understanding -->
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="bi bi-robot feature-icon"></i>
+                        <h4>Natural Language Understanding</h4>
+                        <p>Converse naturally—AERO listens, comprehends, and executes your requests, making interactions seamless and intuitive.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 3: Task Automation -->
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="bi bi-calendar-check-fill feature-icon"></i>
+                        <h4>Task Automation</h4>
+                        <p>From scheduling meetings to sending messages, AERO handles it all, so you can focus on what matters.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                
+                <!-- Feature 4: Effortless Note-Taking -->
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="bi bi-file-text-fill feature-icon"></i>
+                        <h4>Effortless Note-Taking</h4>
+                        <p>Dictate notes, draft documents, and organize thoughts in real-time.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 5: Web & App Integration -->
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="bi bi-globe feature-icon"></i>
+                        <h4>Web & App Integration</h4>
+                        <p>Open, navigate, and interact with websites and applications—AERO bridges the gap between your commands and execution.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 6: Entertainment & System Adjustments -->
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="bi bi-volume-up-fill feature-icon"></i>
+                        <h4>Entertainment & System Adjustments</h4>
+                        <p>Play music, adjust screen brightness, or fine-tune system settings with just your voice.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- "+ many more" text -->
+            <p class="many-more">+ many more</p>
+
+        </div>
+    </section>
+
+
+
+    <!-- How It Works Section -->
+    <section id="how-it-works">
+        <div class="container text-center">
+            <h2 class="gradient-text">Instant Productivity in Three Steps</h2>
+
+            <div class="productivity-grid">
+                <!-- Step 1 -->
+                <div class="productivity-item">
+                    <i class="bi bi-play-circle-fill productivity-icon"></i>
+                    <h4>Initiate</h4>
+                    <p>Give AERO a command via voice or text—no manual actions needed.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="productivity-item">
+                    <i class="bi bi-cpu-fill productivity-icon"></i>
+                    <h4>Process</h4>
+                    <p>AERO understands your request using AI-powered contextual awareness.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="productivity-item">
+                    <i class="bi bi-check-circle-fill productivity-icon"></i>
+                    <h4>Execute</h4>
+                    <p>Your request is instantly completed—opening apps, sending messages, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Why Choose AERO Section -->
+    <section id="why-choose-aero">
+        <div class="container">
+            <h2 class="gradient-text text-center">AERO isn’t just smart—it's revolutionary.</h2>
+            <p class="lead text-center">AERO doesn’t just assist—it <b>anticipates</b>, <b>optimizes</b>, and <b>executes</b> your tasks with precision.</p>
+            
+            <div class="feature-grid">
+                <div class="feature-box">
+                    <i class="bi bi-lightning-fill"></i>
+                    <h4>Instant Execution</h4>
+                    <p>Execute commands instantly with zero delay.</p>
+                </div>
+                <div class="feature-box">
+                    <i class="bi bi-shield-lock-fill"></i>
+                    <h4>Privacy & Security</h4>
+                    <p>End-to-end encryption ensures total data protection.</p>
+                </div>
+                <div class="feature-box">
+                    <i class="bi bi-person-bounding-box"></i>
+                    <h4>Personalized AI</h4>
+                    <p>AERO learns & adapts to your workflow seamlessly.</p>
+                </div>
+                <div class="feature-box">
+                    <i class="bi bi-box-arrow-in-right"></i>
+                    <h4>Seamless Integrations</h4>
+                    <p>Works with your apps, no extra setup needed.</p>
+                </div>
+                <div class="feature-box">
+                    <i class="bi bi-mic-fill"></i>
+                    <h4>Hands-Free Control</h4>
+                    <p>Voice-activated assistant for effortless control.</p>
+                </div>
+                <div class="feature-box">
+                    <i class="bi bi-rocket-takeoff"></i>
+                    <h4>AI-Powered Efficiency</h4>
+                    <p>Automates repetitive tasks so you can focus on work.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <div class="container text-center">
+            <h2 class="gradient-text">Get in Touch</h2>
+            <p class="lead">Have any questions or need support? Contact us using the form below or email us at 
+                <a href="mailto:support@aero.com">support@aero.com</a>.
+            </p>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="beta-form text-center">
+                        <input type="text" id="contact-name" placeholder="Your Name" class="beta-input">
+                        <input type="email" id="contact-email" placeholder="Your Email" class="beta-input">
+                        <textarea id="contact-message" placeholder="Your Message" class="beta-input larger-textarea"></textarea>
+                        <button class="beta-button" onclick="submitContactForm()">Send Message</button>
+                        <p id="contact-message-status" class="error-message"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Closing Statement -->
+    <div class="text-center mt-5">
+        <h3 class="footer-subheading"><span class="gradient-text">Efficiency at your command. Intelligence at your fingertips. This is </span>AERO</h3>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="text-center mb-3">
+                <p class="mb-0">&copy; 2025 AERO Inc. All rights reserved.</p>
+            </div>
+    
+            <div class="row">
+                <div class="col-md-4 text-start">
+                    <h5>Contact Us</h5>
+                    <p><i class="bi bi-envelope-fill"></i> Email: <a href="mailto:support@aero.com" class="text-white">support@aero.com</a></p>
+                    <p><i class="bi bi-geo-alt-fill"></i> Address: 123 AI Street, Tech City, USA</p>
+                    <p><i class="bi bi-telephone-fill"></i> Phone: +1 (555) 123-4567</p>
+    
+                    <!-- Social Media Icons -->
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-whatsapp"></i></a>
+                        <a href="mailto:support@aero.com" class="text-white me-3"><i class="bi bi-envelope-fill"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+    
+                <div class="col-md-4"></div>
+    
+                <div class="col-md-4 text-end">
+                    <h2 class="footer-brand">AERO</h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
